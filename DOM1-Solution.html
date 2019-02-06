@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>DOM JavaScript</title>
+</head>
+<body>
+<h1 id="heading1">DOM JavaScript</h1>
+<p>Read JavaScript articles from
+<a id="danwebb" href="http://www.danwebb.net/">Dan Webb</a>,
+<a href="http://www.quirksmode.org/">PPK</a> and
+<a href="http://adactio.com/">Jeremy Keith</a>.
+</p>
+
+<script>
+	
+	var h1 = document.getElementById("heading1");
+	console.log(h1.innerHTML);  //prints DOM JavaScript
+	h1.innerHTML="DOM JavaScript II";  //changes heading
+	
+
+	/*
+	var a1=document.getElementById("danwebb");
+	console.log(a1.getAttribute("href"));
+	*/
+
+	/*
+	a1.setAttribute("href","http://noucamp.org");
+	*/
+
+	/*
+	var anchorTags=document.getElementsByTagName("a");
+	for(var i=0;i<anchorTags.length;i++)
+		console.log(anchorTags[i].getAttribute("href"));
+	*/
+
+</script>
+
+</body>
+</html>
