@@ -56,7 +56,7 @@ Check your ``htdocs/JavaScript`` folder.  You should have some new files in it.
 	$ cd /<DRIVE>/xampp/htdocs/JavaScript
 	$ git status
 	$ git add .
-	$ git commit -m "Exercise 3 - Part 3 DONE|PARTIAL|HELP"
+	$ git commit -m "Exercise 3 - Part 2 DONE|PARTIAL|HELP"
 	$ git push origin master
 	$ git status
 
