@@ -31,7 +31,7 @@ Check your ``htdocs/JavaScript`` folder.  You should have some new files in it.
 
 1.	You are meant to keep your HTML and JavaScript code separate. 
 
-	Examine the code in ``FirstEventV2.html`` and ``script.js``.  Then open it in your browser with [http://localhost/JavaScript/FirstEventV2.html](http://localhost/JavaScript/FirstEventV2.html).  
+	Examine the code in ``FirstEventV2.html`` and ``FirstEventV2.js``.  Then open it in your browser with [http://localhost/JavaScript/FirstEventV2.html](http://localhost/JavaScript/FirstEventV2.html).  
 
 	This code is typical of how you can do all Event Handling in JavaScript.
 
