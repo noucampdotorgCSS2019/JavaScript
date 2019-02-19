@@ -7,7 +7,7 @@
 
 ```
 $ cd /DRIVE/xampp/htdocs/JavaScript
-$ git pull --no-edit https://github.com/noucampdotorgCSS/JavaScript.git latest
+$ git pull --no-edit https://github.com/noucampdotorgCSS2019/JavaScript.git latest
 $ git status
 
 ```
