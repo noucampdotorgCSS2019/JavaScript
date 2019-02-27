@@ -1,0 +1,14 @@
+<form method="POST" action="process.php"> 
+
+Input Your Name: <input id="emailId" type="text" name="username"> 
+
+</form>
+
+
+<script>
+window.onload=function(){
+	document.getElementById("emailId").onchange=function(){
+		console.log("value="+document.getElementById("emailId").value);
+	}
+}
+</script>

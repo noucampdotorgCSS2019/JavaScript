@@ -1,0 +1,19 @@
+<form method="POST" action="process.php"> 
+
+<input id="agree" name="agree" type="checkbox">Click to agree</input>
+
+<br/>
+<input type="submit" value="Submit"> 
+</form>
+
+
+<script>
+window.onload=function(){
+	document.getElementById("agree").onclick=function(){
+		if(document.getElementById("agree").checked)
+			alert("Thanks");
+		else
+			alert("You must agree to continue");
+	}
+}
+</script>

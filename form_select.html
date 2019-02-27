@@ -1,0 +1,30 @@
+<form method="POST" action="process.php"> 
+
+Colour: 
+<select id="colour" name="colour">
+  <option value="Red">Red</option>
+  <option value="Green">Green</option>
+</select>
+
+<br/>
+<input type="submit" value="Submit"> 
+</form>
+
+
+<script>
+window.onload=function(){
+	document.getElementById("colour").onchange=function(){
+		// print the text from the selected option
+		var select=document.getElementById("colour");
+		
+		console.log("length="+select.length);
+		console.log("options="+select.options);
+		console.log("selectedIndex="+select.selectedIndex);
+
+		for(var i=0;i<select.length;i++)
+		  if(i==select.selectedIndex)
+		    console.log(select.options[i].text);
+
+	}
+}
+</script>
