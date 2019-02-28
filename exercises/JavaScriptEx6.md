@@ -93,7 +93,11 @@ $ git status
 	$ cd /<DRIVE>/xampp/htdocs/JavaScript
 	$ git status
 	$ git add .
+<<<<<<< HEAD
 	$ git commit -m "Exercise 6 - Part 3 DONE|PARTIAL|HELP"
+=======
+	$ git commit -m "Exercise 5 - Part 3 DONE|PARTIAL|HELP"
+>>>>>>> latest
 	$ git push origin master
 	$ git status
 
